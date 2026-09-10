@@ -1,42 +1,13 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>To-Do List App</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div class="container">
-        <div class="todo-wrapper">
-            <h1>My To-Do List</h1>
-            
-            <div class="input-section">
-                <input 
-                    type="text" 
-                    id="todoInput" 
-                    class="todo-input" 
-                    placeholder="Add a new task..."
-                    autocomplete="off"
-                >
-                <button id="addBtn" class="add-btn">Add Task</button>
-            </div>
-
-            <div class="filter-section">
-                <button class="filter-btn active" data-filter="all">All</button>
-                <button class="filter-btn" data-filter="active">Active</button>
-                <button class="filter-btn" data-filter="completed">Completed</button>
-            </div>
-
-            <ul id="todoList" class="todo-list"></ul>
-
-            <div class="stats-section">
-                <span id="taskCount" class="task-count">0 tasks remaining</span>
-                <button id="clearBtn" class="clear-btn">Clear Completed</button>
-            </div>
-        </div>
-    </div>
-
-    <script src="script.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Paran Murmu — actor, artist, entrepreneur, and independent creator from West Bengal, India." />
+    <title>Paran Murmu — Independent Creator</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/index.jsx"></script>
+  </body>
 </html>
